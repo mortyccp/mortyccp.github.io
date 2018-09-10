@@ -33,8 +33,8 @@ const resume = {
       employer: 'PremiumSoft CyberTech Limited',
       url: 'https://www.navicat.com/en/company/aboutus',
       position: 'Senior Developer',
-      start: '2014-06',
-      end: '2018-05',
+      start: 'Jun 2014',
+      end: 'May 2018',
       projects: [
         {
           title: 'Navicat Monitor',
