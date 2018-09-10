@@ -1,0 +1,91 @@
+.PDF {
+  padding: 20px;
+  width: 21cm;
+  height: 29.7cm;
+  margin: auto;
+  background: #fff;
+  color: #333333;
+}
+
+.PDF__Header {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.PDF__HeaderName {
+  font-size: 32px;
+  font-weight: 700;
+  color: #dd3a29;
+  align-self: center;
+}
+
+.PDF__HeaderTitle {
+  font-size: 14px;
+  align-self: center;
+  padding-top: 5px;
+}
+
+.PDF__Section {
+  padding-top: 15px;
+}
+
+.PDF__SectionHeader {
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+  color: #dd3a29;
+}
+
+.PDF__SectionHeader::after {
+  content: '';
+  display: block;
+  flex: 1;
+  border-bottom: 1px solid #000;
+  color: #414141;
+}
+
+.PDF__Content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.PDF__Content + .PDF__Content {
+  padding-top: 10px;
+}
+
+.PDF__Title {
+  flex-basis: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #414141;
+}
+
+.PDF__Period {
+  margin-left: auto;
+  font-size: 14px;
+  color: #5d5d5d;
+}
+
+.PDF__Subtitle {
+  padding-top: 5px;
+}
+
+.PDF__Text {
+  color: #5d5d5d;
+  line-height: 1.5;
+}
+
+.PDF__List {
+  list-style-position: inside;
+  padding-top: 10px;
+}
+
+.PDF__Chip {
+  padding: 5px;
+}
+
+.PDF__Item {
+  flex: 1;
+}

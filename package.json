@@ -10,7 +10,9 @@
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "svgr": "svgr --icon -d src/components/icons src/assets/svg"
+    "start:pdf": "REACT_APP_BUILD_PDF=1 react-scripts start",
+    "build:pdf": "node ./scripts/build-pdf.js",
+    "build:svg": "svgr --icon -d src/components/icons src/assets/svg"
   },
   "dependencies": {
     "@svgr/cli": "^2.3.0",
@@ -18,6 +20,7 @@
     "gh-pages": "^1.2.0",
     "normalize.css": "^8.0.0",
     "prettier": "^1.14.2",
+    "puppeteer": "^1.8.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5"

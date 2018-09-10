@@ -11,6 +11,9 @@ const resume = {
   title: 'Full Stack Developer',
   phone: '(852) 6218-6482',
   email: 'mortyccp@gmail.com',
+  website: 'https://mortyccp.github.io',
+  summary:
+    'Developer interested in learning new techonologies and tools to solve chanllenging tasks.',
   profiles: {
     github: 'https://github.com/mortyccp',
     stackOverflow: 'https://stackoverflow.com/users/2215977/morty-choi'
@@ -63,6 +66,13 @@ const resume = {
             'Instagram companion app which is terminated due to instagram api policy',
           logo: instagrabLogo
         }
+      ],
+      highlights: [
+        'Designed the overall service architecture for databse monitoring web application',
+        'Built CI/CD pipelines for web application with cross compliation using Docker and Makefile',
+        'Built mobile application with microservice architecture',
+        'Designed multiple frontend applications architecture',
+        'Developed award winning(Webby Awards) android, iOS and web application'
       ]
     }
   ],
@@ -80,6 +90,26 @@ const resume = {
       description: 'Tool for Pokemon Go with material design style',
       logo: dreamPocketLogo
     }
+  ],
+  skills: [
+    'reactjs',
+    'vue.js',
+    'css3',
+    'html5',
+    'webpack',
+    'git',
+    'docker',
+    'android',
+    'ios',
+    'rest',
+    'graphql',
+    'mircoservice',
+    'java',
+    'swift',
+    'objective-c',
+    'javascript',
+    'golang',
+    'mysql'
   ]
 };
 

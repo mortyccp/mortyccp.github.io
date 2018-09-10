@@ -1,10 +1,11 @@
 import React from 'react';
+import cn from 'classnames';
 import Card from './components/Card';
-// import Button from './components/Button';
+import Button from './components/Button';
 import Email from './components/Icons/Email';
 import Github from './components/Icons/Github';
 import StackOverflow from './components/Icons/StackOverflow';
-import cn from 'classnames';
+import pdf from './assets/resume.pdf';
 import './Hero.css';
 
 function Hero({ name, title, email, profiles, className }) {
@@ -34,9 +35,11 @@ function Hero({ name, title, email, profiles, className }) {
           </a>
         )}
       </div>
-      {/* <div className="Hero__Action">
-        <Button>Download CV</Button>
-      </div> */}
+      <div className="Hero__Action">
+        <a href={pdf} download="morty-resume.pdf">
+          <Button>Download CV</Button>
+        </a>
+      </div>
     </Card>
   );
 }
