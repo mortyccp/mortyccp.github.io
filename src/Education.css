@@ -1,0 +1,24 @@
+.Education {
+}
+
+.Education__Item {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 10px;
+}
+
+.Education__Institution {
+  flex-basis: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.Education__Title {
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.Education__Period {
+  font-size: 14px;
+}

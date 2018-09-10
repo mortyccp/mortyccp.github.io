@@ -1,0 +1,24 @@
+.Employment {
+}
+
+.Employment__Item {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 10px;
+}
+
+.Employment__Employer {
+  flex-basis: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.Employment__Position {
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.Employment__Period {
+  font-size: 14px;
+}

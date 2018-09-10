@@ -1,0 +1,187 @@
+{
+  "name": "Choi Chi Piu",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.4.0"
+  },
+  "info": {
+    "label": "Application Developer",
+    "characterClass": "Programmer",
+    "brief": "",
+    "image": "",
+    "quote": ""
+  },
+  "contact": {
+    "website": "https://mortyccp.github.io",
+    "phone": "(852) 6218-6482",
+    "email": "mortyccp@gmail.com",
+    "other": []
+  },
+  "location": {
+    "address": "",
+    "city": "Hong Kong",
+    "region": "",
+    "code": "",
+    "country": "China"
+  },
+  "projects": [
+    {
+      "title": "Perfect Pocket",
+      "category": "personal",
+      "role": "creator",
+      "url": "https://play.google.com/store/apps/details?id=com.soapsign.perfect&hl=en",
+      "start": "2016-08",
+      "description": "Tool for Pokemon Go with 100k downloads and 4.7 rating",
+      "summary": "",
+      "keywords": [
+        "Android"
+      ],
+      "media": []
+    },
+    {
+      "title": "Dream Pocket",
+      "category": "personal",
+      "role": "creator",
+      "url": "http://project.website.com",
+      "description": "Tool for Pokemon Go with Material Design UI",
+      "start": "2017-07",
+      "summary": "",
+      "keywords": [
+        "Android",
+        "Material Design"
+      ]
+    }
+  ],
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "mortyccp",
+      "url": "https://github.com/mortyccp"
+    }
+  ],
+  "employment": {
+    "summary": "3+ years application development for web and mobile",
+    "history": [
+      {
+        "employer": "PremiumSoft CyberTech Limited",
+        "url": "https://www.navicat.com/en/company/aboutus",
+        "position": "Senior Developer",
+        "summary": "Developer for mobile and web application",
+        "start": "2014-06",
+        "keywords": [
+          "Android",
+          "iOS",
+          "Java",
+          "Swift",
+          "Web",
+          "Javascript",
+          "Vue.js",
+          "Redux",
+          "REST",
+          "GraphQL",
+          "Golang",
+          "Ruby"
+        ],
+        "highlights": [
+          "Develop android app [**Grab for Instagram**](https://play.google.com/store/apps/details?id=com.grandsoft.instagrab&hl=en)",
+          "Develop iOS app [**Grad for IG**](https://itunes.apple.com/app/grab-for-instagram-your-instagram/id546639267?ls=1&mt=8)",
+          "Develop iOS app [**Mavie**](https://itunes.apple.com/cn/app/mavie%E5%90%8C%E4%BA%AB/id1215979862?l=en&mt=8&ign-mpt=uo%3D4)",
+          "Develop database monitoring single page application with vue.js"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "summary": "",
+    "level": "degree",
+    "degree": "BSc in Computer Science",
+    "history": [
+      {
+        "institution": "Hong Kong University of Science and Technology",
+        "title": "BSc in Computer Science",
+        "url": "www.ust.hk/",
+        "start": "Sep 2011",
+        "end": "Nov 2014",
+        "summary": ""
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Mobile",
+        "level": "master",
+        "skills": [
+          "REST",
+          "GraphQL",
+          "Swift",
+          "Java",
+          "Redux",
+          "iOS",
+          "Android",
+          "MVC"
+        ]
+      },
+      {
+        "name": "Web",
+        "level": "master",
+        "skills": [
+          "HTML5",
+          "CSS3",
+          "Javascript",
+          "Vue.js",
+          "React.js",
+          "Redux",
+          "Webpack"
+        ]
+      },
+      {
+        "name": "Backend",
+        "level": "intermediate",
+        "skills": [
+          "SQL",
+          "GraphQL",
+          "REST",
+          "Ruby",
+          "Golang"
+        ]
+      },
+      {
+        "name": "Devops",
+        "level": "advanced",
+        "skills": [
+          "Agile",
+          "Docker",
+          "Git",
+          "Jenkins",
+          "Gradle",
+          "ESLint"
+        ]
+      },
+      {
+        "name": "Hobby",
+        "level": "",
+        "skills": [
+          "Rust",
+          "Elixir",
+          "Flutter"
+        ]
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "Cantonese",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Fluent"
+    },
+    {
+      "language": "Mandarin",
+      "level": "Fluent"
+    }
+  ]
+}

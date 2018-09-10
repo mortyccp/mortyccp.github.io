@@ -1,0 +1,20 @@
+.Button {
+  background: transparent;
+  padding: 15px 25px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  outline: 0;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.Button:hover {
+  background: #fff;
+  color: #000;
+}

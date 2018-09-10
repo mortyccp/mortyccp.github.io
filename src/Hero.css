@@ -1,0 +1,43 @@
+.Hero {
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 80px 60px 40px;
+}
+
+.Hero__Name {
+  font-size: 32px;
+  letter-spacing: 6px;
+  padding-top: 20px;
+}
+
+.Hero__Title {
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+
+.Hero__Profiles {
+  display: flex;
+  padding-top: 20px;
+}
+
+.Hero__Profiles > a {
+  fill: #fff;
+  color: #fff;
+}
+
+.Hero__Profiles > a:hover {
+  fill: #3b637b;
+  color: #3b637b;
+}
+
+.Hero__Profiles > a + a {
+  margin-left: 5px;
+}
+
+.Hero__Action {
+  padding-top: 20px;
+}
